@@ -1,13 +1,6 @@
-**:warning: SOON TO BE DEPRECATED IN FAVOR OF https://github.com/CMTEcosystem/core/tree/master/packages/crypto - PLEASE SUBMIT PULL REQUESTS TO THE CORE V2 REPOSITORY :warning:***
-
-
 # CMT JS
 
 CMT JS is a JavaScript library for sending CMT transactions. It's main benefit is that it does not require a locally installed CMT node, and instead utilizes the existing peers on the network. It can be used from the client as a [browserify](http://browserify.org/) compiled module, or on the server as a standard Node.js module.
-
-## Installation
-
-[![npm package](https://nodei.co/npm/CMTjs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/CMTjs/)
 
 ## Building
 
@@ -281,16 +274,14 @@ var transaction = CMT.vote.createVote("secret", ["+58199578191950019299181920120
 ***
 
 ## Authors
-- FX Thoorens <fx@CMT.io>
-- Guillaume Verbal <doweig@CMT.io>
-- Boris Povod <boris@crypti.me>
-- Oliver Beddows <oliver@lisk.io>
+- Lorenzo Caruso <lorenzo.caruso@outlook.com>
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2016-2017 CMT.io<br />
+Copyright (c) 2018 CryptoMountains
+Copyright (c) 2016-2017 ark.io<br />
 Copyright (c) 2016 Lisk<br />
 Copyright (c) 2015 Crypti
 
